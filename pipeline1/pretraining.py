@@ -27,6 +27,7 @@ import neptune
 from shutil import copyfile
 from tqdm import tqdm
 from warnings import filterwarnings
+from carbontracker.tracker import CarbonTracker
 filterwarnings("ignore")
 
 sys.path.append("models")
@@ -405,7 +406,15 @@ if __name__ == "__main__":
     copyfile(os.path.basename(__file__), os.path.join(cfg.out_dir, os.path.basename(__file__)))
 
     oofs = []
+    
+    # Add carbon tracker
+    tracker = CarbonTracker(epochs=max_epochs) # don't know how many epochs it does...
+
     for cc, fold_id in enumerate(cfg.folds):
+        
+        # start tracking epoch
+        tracker.epoch_start()
+
         log_path = f'{cfg.out_dir}/log_f{fold_id}_st{cfg.stage}.txt'
         train_loader, valid_loader, total_steps, val_df = get_dataloader(cfg, fold_id)
         total_steps = total_steps*cfg.epochs
@@ -530,3 +539,10 @@ if __name__ == "__main__":
 
             del model 
             gc.collect()
+        
+        # stop tracking epoch
+        tracker.epoch_end()
+        
+    # Optional: Add a stop in case of early termination before all monitor_epochs has
+    # been monitored to ensure that actual consumption is reported.
+    tracker.stop()
