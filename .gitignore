@@ -2,3 +2,5 @@ pretrained/
 outputs/
 logs/
 models/
+png512zip
+*.pyc
