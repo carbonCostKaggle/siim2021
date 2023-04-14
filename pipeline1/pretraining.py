@@ -407,11 +407,11 @@ if __name__ == "__main__":
 
     oofs = []
     
-    max_epochs = len(list(enumerate(cfg.folds)))
-    print(f"The max epochs is: {max_epochs}")
+    max_epochs = len(list(enumerate(cfg.folds))) # max_epochs == 5
+
     # Add carbon tracker
     tracker = CarbonTracker(epochs=max_epochs) # don't know how many epochs it does...
-    """
+    
     for cc, fold_id in enumerate(cfg.folds):
         
         # start tracking epoch
@@ -547,5 +547,5 @@ if __name__ == "__main__":
 
     # Optional: Add a stop in case of early termination before all monitor_epochs has
     # been monitored to ensure that actual consumption is reported.
-    tracker.stop()"""
+    tracker.stop()
     
