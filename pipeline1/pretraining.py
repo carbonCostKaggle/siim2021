@@ -408,7 +408,7 @@ if __name__ == "__main__":
     oofs = []
     
     max_epochs = len(list(enumerate(cfg.folds)))
-    print(max_epochs)
+    print(f"The max epochs is: {max_epochs}")
     # Add carbon tracker
     tracker = CarbonTracker(epochs=max_epochs) # don't know how many epochs it does...
     """
