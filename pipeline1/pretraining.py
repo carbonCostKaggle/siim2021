@@ -407,8 +407,9 @@ if __name__ == "__main__":
 
     oofs = []
     
-    max_epochs = len(list(enumerate(cfg.folds))) # max_epochs == 5
-
+    #max_epochs = len(list(enumerate(cfg.folds))) # max_epochs == 5
+    max_epochs = cfg.epochs # max_epochs == 15
+    
     # Add carbon tracker
     tracker = CarbonTracker(epochs=max_epochs) # don't know how many epochs it does...
     
@@ -421,12 +422,12 @@ if __name__ == "__main__":
         train_loader, valid_loader, total_steps, val_df = get_dataloader(cfg, fold_id)
         total_steps = total_steps*cfg.epochs
         print(f'======== FOLD {fold_id} ========')
-        '''if cfg.dp:
-            model = torch.nn.DataParallel(model)'''
+        if cfg.dp:
+            model = torch.nn.DataParallel(model)
 
         if cfg.mode == 'train':
             logfile(f'======= STAGE {cfg.stage} =========')
-            '''model = get_model(cfg).to(device)
+            model = get_model(cfg).to(device)
             optimizer = get_optimizer(cfg, model)
             scheduler = get_scheduler(cfg, optimizer, total_steps)
 
@@ -468,10 +469,10 @@ if __name__ == "__main__":
 
         
             loss_min = 1e6
-            map_score_max = 0'''
+            map_score_max = 0
             for epoch in range(1, cfg.epochs+1):
                 logfile(f'====epoch {epoch} ====')
-                '''loss_train = train_func(model, train_loader, scheduler, device, epoch)
+                loss_train = train_func(model, train_loader, scheduler, device, epoch)
                 loss_valid, micro_score, macro_score, auc, map, pred_probs = valid_func(model, valid_loader)
 
                 if map > map_score_max:
@@ -540,7 +541,7 @@ if __name__ == "__main__":
             val_df.to_csv(f'{cfg.out_dir}/{cfg.name}_{cfg.mode}_st{cfg.stage}.csv', index=False)
 
             del model 
-            gc.collect()'''
+            gc.collect()
         
         # stop tracking epoch
         tracker.epoch_end()
