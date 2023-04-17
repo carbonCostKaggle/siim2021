@@ -653,8 +653,11 @@ if __name__ == "__main__":
     max_epochs = cfg.epochs # max_epochs == ?
     tracker = CarbonTracker(epochs=max_epochs)
     print(max_epochs)
-    
+
     if cfg.mode in ['train', 'val', 'predict']:
+        # CarbonTracker ##########################################
+        tracker.epoch_start()
+
         oofs = []
         for cc, fold_id in enumerate(cfg.folds):
             log_path = f'{cfg.out_dir}/log_f{fold_id}_st{cfg.stage}.txt'
@@ -903,4 +906,8 @@ if __name__ == "__main__":
         # gc.collect()'''
 
 
+    tracker.epoch_end()
 
+# Optional: Add a stop in case of early termination before all monitor_epochs has
+# been monitored to ensure that actual consumption is reported.
+tracker.stop()
