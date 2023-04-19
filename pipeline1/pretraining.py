@@ -407,15 +407,15 @@ if __name__ == "__main__":
 
     oofs = []
     
-    #max_epochs = len(list(enumerate(cfg.folds))) # max_epochs == 5
-    max_epochs = cfg.epochs # max_epochs == 15
+    #max_epochs = len(list(enumerate(cfg.folds))) # cfg.folds == 5
+    max_epochs = cfg.epochs # cfg.epochs == 15
     
-    # Add carbon tracker
-    tracker = CarbonTracker(epochs=max_epochs) # don't know how many epochs it does...
+    # Add carbon tracker ##################################################################
+    tracker = CarbonTracker(epochs=max_epochs)
     
     for cc, fold_id in enumerate(cfg.folds):
         
-        # start tracking epoch
+        # start tracking epoch ############################################################
         tracker.epoch_start()
 
         log_path = f'{cfg.out_dir}/log_f{fold_id}_st{cfg.stage}.txt'
@@ -543,7 +543,7 @@ if __name__ == "__main__":
             del model 
             gc.collect()
         
-        # stop tracking epoch
+        # stop tracking epoch ###########################################
         tracker.epoch_end()
 
     # Optional: Add a stop in case of early termination before all monitor_epochs has
