@@ -1,0 +1,40 @@
+Requirement already satisfied: carbontracker in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (1.1.7)
+Requirement already satisfied: psutil in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from carbontracker) (5.9.4)
+Requirement already satisfied: pandas in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from carbontracker) (1.2.4)
+Requirement already satisfied: geocoder in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from carbontracker) (1.38.1)
+Requirement already satisfied: requests in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from carbontracker) (2.26.0)
+Requirement already satisfied: numpy in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from carbontracker) (1.21.5)
+Requirement already satisfied: importlib-metadata in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from carbontracker) (4.6.4)
+Requirement already satisfied: pynvml in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from carbontracker) (11.5.0)
+Requirement already satisfied: future in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from geocoder->carbontracker) (0.18.3)
+Requirement already satisfied: six in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from geocoder->carbontracker) (1.16.0)
+Requirement already satisfied: ratelim in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from geocoder->carbontracker) (0.1.6)
+Requirement already satisfied: click in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from geocoder->carbontracker) (8.0.1)
+Requirement already satisfied: typing-extensions>=3.6.4 in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from importlib-metadata->carbontracker) (4.3.0)
+Requirement already satisfied: zipp>=0.5 in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from importlib-metadata->carbontracker) (3.5.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from pandas->carbontracker) (2.8.2)
+Requirement already satisfied: pytz>=2017.3 in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from pandas->carbontracker) (2021.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from requests->carbontracker) (3.2)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from requests->carbontracker) (1.26.6)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from requests->carbontracker) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from requests->carbontracker) (2021.5.30)
+Requirement already satisfied: decorator in /home/ddeq/.conda/envs/envs/lib/python3.7/site-packages (from ratelim->geocoder->carbontracker) (5.1.1)
+envs
+[ √ ] Using config file cait_pretraining
+[ √ ] Using mode:  train
+The max epochs is: 5
+[ √ ] Using config file f1_pretraining
+[ √ ] Using mode:  train
+The max epochs is: 5
+[ √ ] Using config file f3_pretraining
+[ √ ] Using mode:  train
+The max epochs is: 5
+[ √ ] Using config file l1_pretraining
+[ √ ] Using mode:  train
+The max epochs is: 5
+[ √ ] Using config file l1b_pretraining
+[ √ ] Using mode:  train
+The max epochs is: 5
+[ √ ] Using config file l2_pretraining
+[ √ ] Using mode:  train
+The max epochs is: 5

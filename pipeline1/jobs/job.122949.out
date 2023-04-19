@@ -1,0 +1,650 @@
+desktop18
+envs
+[ √ ] Using config file cait_pretraining
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA A30.
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:01
+	Energy:	0.000008 kWh
+	CO2eq:	0.000776 g
+	This is equivalent to:
+	0.000007 km travelled by car
+CarbonTracker: 
+Predicted consumption for 5 epoch(s):
+	Time:	0:00:04
+	Energy:	0.000040 kWh
+	CO2eq:	0.003912 g
+	This is equivalent to:
+	0.000036 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using config file f1_pretraining
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA A30.
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.000005 kWh
+	CO2eq:	0.000451 g
+	This is equivalent to:
+	0.000004 km travelled by car
+CarbonTracker: 
+Predicted consumption for 5 epoch(s):
+	Time:	0:00:02
+	Energy:	0.000024 kWh
+	CO2eq:	0.002287 g
+	This is equivalent to:
+	0.000021 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using config file f3_pretraining
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA A30.
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.000004 kWh
+	CO2eq:	0.000406 g
+	This is equivalent to:
+	0.000004 km travelled by car
+CarbonTracker: 
+Predicted consumption for 5 epoch(s):
+	Time:	0:00:02
+	Energy:	0.000021 kWh
+	CO2eq:	0.002048 g
+	This is equivalent to:
+	0.000019 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using config file l1_pretraining
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA A30.
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.000004 kWh
+	CO2eq:	0.000384 g
+	This is equivalent to:
+	0.000004 km travelled by car
+CarbonTracker: 
+Predicted consumption for 5 epoch(s):
+	Time:	0:00:02
+	Energy:	0.000020 kWh
+	CO2eq:	0.001937 g
+	This is equivalent to:
+	0.000018 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using config file l1b_pretraining
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA A30.
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.000005 kWh
+	CO2eq:	0.000445 g
+	This is equivalent to:
+	0.000004 km travelled by car
+CarbonTracker: 
+Predicted consumption for 5 epoch(s):
+	Time:	0:00:02
+	Energy:	0.000023 kWh
+	CO2eq:	0.002205 g
+	This is equivalent to:
+	0.000021 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using config file l2_pretraining
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+CarbonTracker: The following components were found: GPU with device(s) NVIDIA A30.
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:00
+	Energy:	0.000004 kWh
+	CO2eq:	0.000408 g
+	This is equivalent to:
+	0.000004 km travelled by car
+CarbonTracker: 
+Predicted consumption for 5 epoch(s):
+	Time:	0:00:02
+	Energy:	0.000021 kWh
+	CO2eq:	0.002020 g
+	This is equivalent to:
+	0.000019 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
