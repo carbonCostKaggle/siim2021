@@ -1,0 +1,753 @@
+cn6
+envs
+[ √ ] Using config file n_cf11
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+CarbonTracker: The following components were found: GPU with device(s) Tesla V100-PCIE-32GB. CPU with device(s) cpu:0, cpu:1.
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:05
+	Energy:	0.000340 kWh
+	CO2eq:	0.010185 g
+	This is equivalent to:
+	0.000095 km travelled by car
+CarbonTracker: 
+Predicted consumption for 15 epoch(s):
+	Time:	0:01:20
+	Energy:	0.005093 kWh
+	CO2eq:	0.151504 g
+	This is equivalent to:
+	0.001409 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using config file n_cf11_1
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+CarbonTracker: The following components were found: GPU with device(s) Tesla V100-PCIE-32GB. CPU with device(s) cpu:0, cpu:1.
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:05
+	Energy:	0.000318 kWh
+	CO2eq:	0.009536 g
+	This is equivalent to:
+	0.000089 km travelled by car
+CarbonTracker: 
+Predicted consumption for 15 epoch(s):
+	Time:	0:01:13
+	Energy:	0.004768 kWh
+	CO2eq:	0.141855 g
+	This is equivalent to:
+	0.001320 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using config file n_cf11_6
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+CarbonTracker: The following components were found: GPU with device(s) Tesla V100-PCIE-32GB. CPU with device(s) cpu:0, cpu:1.
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:06
+	Energy:	0.000384 kWh
+	CO2eq:	0.011529 g
+	This is equivalent to:
+	0.000107 km travelled by car
+CarbonTracker: 
+Predicted consumption for 15 epoch(s):
+	Time:	0:01:33
+	Energy:	0.005764 kWh
+	CO2eq:	0.171490 g
+	This is equivalent to:
+	0.001595 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using config file n_cf11_7
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+CarbonTracker: The following components were found: GPU with device(s) Tesla V100-PCIE-32GB. CPU with device(s) cpu:0, cpu:1.
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:04
+	Energy:	0.000242 kWh
+	CO2eq:	0.007273 g
+	This is equivalent to:
+	0.000068 km travelled by car
+CarbonTracker: 
+Predicted consumption for 15 epoch(s):
+	Time:	0:01:03
+	Energy:	0.003637 kWh
+	CO2eq:	0.108192 g
+	This is equivalent to:
+	0.001006 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using config file n_cf11_9
+[ √ ] Using mode:  train
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+CarbonTracker: The following components were found: GPU with device(s) Tesla V100-PCIE-32GB. CPU with device(s) cpu:0, cpu:1.
+====epoch 14 ====
+====epoch 15 ====
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:06
+	Energy:	0.000459 kWh
+	CO2eq:	0.013757 g
+	This is equivalent to:
+	0.000128 km travelled by car
+CarbonTracker: 
+Predicted consumption for 15 epoch(s):
+	Time:	0:01:30
+	Energy:	0.006878 kWh
+	CO2eq:	0.204633 g
+	This is equivalent to:
+	0.001904 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using config file n_cf11_10
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+CarbonTracker: The following components were found: GPU with device(s) Tesla V100-PCIE-32GB. CPU with device(s) cpu:0, cpu:1.
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:05
+	Energy:	0.000291 kWh
+	CO2eq:	0.008744 g
+	This is equivalent to:
+	0.000081 km travelled by car
+CarbonTracker: 
+Predicted consumption for 15 epoch(s):
+	Time:	0:01:08
+	Energy:	0.004372 kWh
+	CO2eq:	0.131158 g
+	This is equivalent to:
+	0.001220 km travelled by car
+CarbonTracker: Finished monitoring.
+[ √ ] Using config file n_cf11_rot1
+[ √ ] Using mode:  train
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+CarbonTracker: The following components were found: GPU with device(s) Tesla V100-PCIE-32GB. CPU with device(s) cpu:0, cpu:1.
+======== FOLD 0 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+======== FOLD 1 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+======== FOLD 2 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+======== FOLD 3 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+[ √ ] Using augmentation file configs/aug/s_0220/0220_hf_cut_sm2_0.75_384_v1b.yaml
+======== FOLD 4 ========
+======= STAGE 0 =========
+====epoch 1 ====
+====epoch 2 ====
+====epoch 3 ====
+====epoch 4 ====
+====epoch 5 ====
+====epoch 6 ====
+====epoch 7 ====
+====epoch 8 ====
+====epoch 9 ====
+====epoch 10 ====
+====epoch 11 ====
+====epoch 12 ====
+====epoch 13 ====
+====epoch 14 ====
+====epoch 15 ====
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:05
+	Energy:	0.000316 kWh
+	CO2eq:	0.009466 g
+	This is equivalent to:
+	0.000088 km travelled by car
+CarbonTracker: 
+Predicted consumption for 15 epoch(s):
+	Time:	0:01:15
+	Energy:	0.004733 kWh
+	CO2eq:	0.141989 g
+	This is equivalent to:
+	0.001321 km travelled by car
+CarbonTracker: Finished monitoring.
