@@ -650,7 +650,8 @@ if __name__ == "__main__":
     ####################################################################
     ####################################################################
     # ADD CARBONTRACKER HERE ###########################################
-    max_epochs = cfg.epochs # cfg.epochs == 15
+    #max_epochs = cfg.epochs # cfg.epochs == 15
+    max_epochs = len(list(enumerate(cfg.folds))) # 5
     tracker = CarbonTracker(epochs=max_epochs)
     #print(max_epochs)
 
@@ -789,6 +790,7 @@ if __name__ == "__main__":
 
                 del model, scheduler, optimizer
                 gc.collect()'''
+            
             # elif cfg.mode == 'val':
             '''if cfg.mode in['train', 'val']:
                 model = get_model(cfg).to(device)
@@ -861,7 +863,7 @@ if __name__ == "__main__":
 
                 del model 
                 gc.collect()'''
-
+            break ####################################################
     '''elif cfg.mode in ['test', 'predict']:
         transforms_valid = albumentations.Compose([
             albumentations.Resize(cfg.input_size, cfg.input_size),
@@ -904,9 +906,10 @@ if __name__ == "__main__":
 
         # del model 
         # gc.collect()'''
-
+    
     # CarbonTracker end epoch ###################################################3
     tracker.epoch_end()
+    #break
 
 # Optional: Add a stop in case of early termination before all monitor_epochs has
 # been monitored to ensure that actual consumption is reported.

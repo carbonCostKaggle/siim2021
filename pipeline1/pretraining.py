@@ -407,15 +407,14 @@ if __name__ == "__main__":
 
     oofs = []
     
-    #max_epochs = len(list(enumerate(cfg.folds))) # cfg.folds == 5
-    max_epochs = cfg.epochs # cfg.epochs == 15
+    max_epochs = len(list(enumerate(cfg.folds))) # cfg.folds == 5
+    #max_epochs = cfg.epochs # cfg.epochs == 15
     
     # Add carbon tracker ##################################################################
     tracker = CarbonTracker(epochs=max_epochs)
     
     for cc, fold_id in enumerate(cfg.folds):
         
-        #while fold_id < 3:
         # start tracking epoch ############################################################
         tracker.epoch_start()
 
@@ -470,10 +469,10 @@ if __name__ == "__main__":
 
         
             loss_min = 1e6
-            map_score_max = 0
+            map_score_max = 0'''
             for epoch in range(1, cfg.epochs+1):
                 logfile(f'====epoch {epoch} ====')
-                loss_train = train_func(model, train_loader, scheduler, device, epoch)
+                '''loss_train = train_func(model, train_loader, scheduler, device, epoch)
                 loss_valid, micro_score, macro_score, auc, map, pred_probs = valid_func(model, valid_loader)
 
                 if map > map_score_max:
@@ -510,9 +509,9 @@ if __name__ == "__main__":
 
                     torch.save(checkpoint, f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth')
 
-                logfile(f'[EPOCH {epoch}] micro f1 score: {micro_score}, macro_score f1 score: {macro_score}, val loss: {loss_valid}, AUC: {auc}, MAP: {map}')
-
-            if cfg.neptune_project and cfg.mode == 'train':
+                logfile(f'[EPOCH {epoch}] micro f1 score: {micro_score}, macro_score f1 score: {macro_score}, val loss: {loss_valid}, AUC: {auc}, MAP: {map}')'''
+                #break ############################################ add break so only 1 epoch runs
+            '''if cfg.neptune_project and cfg.mode == 'train':
                 neptune.stop()
 
             del model, scheduler, optimizer
