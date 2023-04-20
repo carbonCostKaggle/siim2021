@@ -416,6 +416,8 @@ if __name__ == "__main__":
     for cc, fold_id in enumerate(cfg.folds):
         
         # start tracking epoch ############################################################
+        # here they call fold what CT refers to as epoch
+        # start the epoch, break after one iteration
         tracker.epoch_start()
 
         log_path = f'{cfg.out_dir}/log_f{fold_id}_st{cfg.stage}.txt'
@@ -510,7 +512,7 @@ if __name__ == "__main__":
                     torch.save(checkpoint, f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth')
 
                 logfile(f'[EPOCH {epoch}] micro f1 score: {micro_score}, macro_score f1 score: {macro_score}, val loss: {loss_valid}, AUC: {auc}, MAP: {map}')'''
-                #break ############################################ add break so only 1 epoch runs
+            
             '''if cfg.neptune_project and cfg.mode == 'train':
                 neptune.stop()
 
@@ -545,6 +547,7 @@ if __name__ == "__main__":
         '''
         # stop tracking epoch ###########################################
         tracker.epoch_end()
+        # break so only 1 fold runs (still run through 15 epochs)
 
     # Optional: Add a stop in case of early termination before all monitor_epochs has
     # been monitored to ensure that actual consumption is reported.

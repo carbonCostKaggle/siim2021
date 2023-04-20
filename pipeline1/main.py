@@ -655,7 +655,6 @@ if __name__ == "__main__":
 
         max_epochs = len(list(enumerate(cfg.folds))) # 5
         tracker = CarbonTracker(epochs=max_epochs)
-        #print(max_epochs)
 
         oofs = []
 
