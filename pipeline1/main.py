@@ -660,17 +660,17 @@ if __name__ == "__main__":
 
         oofs = []
         for cc, fold_id in enumerate(cfg.folds): # cfg.folds == 5
-            log_path = f'{cfg.out_dir}/log_f{fold_id}_st{cfg.stage}.txt'
+            '''log_path = f'{cfg.out_dir}/log_f{fold_id}_st{cfg.stage}.txt'
             train_loader, valid_loader, total_steps, val_df, e_loader = get_dataloader(cfg, fold_id)
-            total_steps = total_steps*cfg.epochs
+            total_steps = total_steps*cfg.epochs'''
             print(f'======== FOLD {fold_id} ========')
             if cfg.dp:
                 model = torch.nn.DataParallel(model)
 
             if cfg.mode == 'train':
-                copyfile(os.path.basename(__file__), os.path.join(cfg.out_dir, os.path.basename(__file__)))
+                '''copyfile(os.path.basename(__file__), os.path.join(cfg.out_dir, os.path.basename(__file__)))'''
                 logfile(f'======= STAGE {cfg.stage} =========')
-                model = get_model(cfg).to(device)
+                '''model = get_model(cfg).to(device)
                 optimizer = get_optimizer(cfg, model)
                 scheduler = get_scheduler(cfg, optimizer, total_steps)
 
@@ -745,10 +745,10 @@ if __name__ == "__main__":
 
                 loss_min = 1e6
                 map_score_max = 0
-                best_score = 0
+                best_score = 0'''
                 for epoch in range(1, cfg.epochs+1): # range(1,16) #######################
                     logfile(f'====epoch {epoch} ====')
-                    loss_train, tr_it = train_func(model, train_loader, scheduler, device, epoch, tr_it)
+                    '''loss_train, tr_it = train_func(model, train_loader, scheduler, device, epoch, tr_it)
                     loss_valid, micro_score, acc, auc, map, pred_probs = valid_func(model, valid_loader)
                     if cfg.loss in ['ce', 'all']:
                         ce_criterion.next_epoch()
@@ -782,15 +782,15 @@ if __name__ == "__main__":
 
                         torch.save(checkpoint, f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth')
 
-                    logfile(f'[EPOCH {epoch}] micro f1 score: {micro_score}, acc score: {acc}, val loss: {loss_valid}, AUC: {auc}, MAP: {map}')
+                    logfile(f'[EPOCH {epoch}] micro f1 score: {micro_score}, acc score: {acc}, val loss: {loss_valid}, AUC: {auc}, MAP: {map}')'''
 
-                if cfg.neptune_project and cfg.mode == 'train':
+                '''if cfg.neptune_project and cfg.mode == 'train':
                     neptune.stop()
 
                 del model, scheduler, optimizer
-                gc.collect()
+                gc.collect()'''
             # elif cfg.mode == 'val':
-            if cfg.mode in['train', 'val']:
+            '''if cfg.mode in['train', 'val']:
                 model = get_model(cfg).to(device)
                 # chpt_path = f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth'
                 chpt_path = f'{cfg.out_dir}/best_map_fold{fold_id}_st{cfg.stage}.pth'
@@ -860,9 +860,9 @@ if __name__ == "__main__":
                 val_df.to_csv(f'{cfg.out_dir}/pseudo_st{cfg.stage}_fold{cc}.csv', index=False)
 
                 del model 
-                gc.collect()
+                gc.collect()'''
 
-    elif cfg.mode in ['test', 'predict']:
+    '''elif cfg.mode in ['test', 'predict']:
         transforms_valid = albumentations.Compose([
             albumentations.Resize(cfg.input_size, cfg.input_size),
         ])
@@ -903,7 +903,7 @@ if __name__ == "__main__":
             val_df.to_csv(f'{cfg.out_dir}/{cfg.name}_{cfg.mode}_st{cfg.stage}.csv', index=False)
 
         # del model 
-        # gc.collect()
+        # gc.collect()'''
 
     # CarbonTracker end epoch ###################################################3
     tracker.epoch_end()
