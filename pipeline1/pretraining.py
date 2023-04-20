@@ -415,6 +415,7 @@ if __name__ == "__main__":
     
     for cc, fold_id in enumerate(cfg.folds):
         
+        #while fold_id < 3:
         # start tracking epoch ############################################################
         tracker.epoch_start()
 
@@ -422,12 +423,12 @@ if __name__ == "__main__":
         train_loader, valid_loader, total_steps, val_df = get_dataloader(cfg, fold_id)
         total_steps = total_steps*cfg.epochs
         print(f'======== FOLD {fold_id} ========')
-        if cfg.dp:
-            model = torch.nn.DataParallel(model)
+        '''if cfg.dp:
+            model = torch.nn.DataParallel(model)'''
 
         if cfg.mode == 'train':
             logfile(f'======= STAGE {cfg.stage} =========')
-            model = get_model(cfg).to(device)
+            '''model = get_model(cfg).to(device)
             optimizer = get_optimizer(cfg, model)
             scheduler = get_scheduler(cfg, optimizer, total_steps)
 
@@ -515,9 +516,9 @@ if __name__ == "__main__":
                 neptune.stop()
 
             del model, scheduler, optimizer
-            gc.collect()
+            gc.collect()'''
 
-        if cfg.mode == 'test':
+        '''if cfg.mode == 'test':
             transforms_valid = albumentations.Compose([
                 albumentations.Resize(cfg.input_size, cfg.input_size),
             ])
@@ -542,7 +543,7 @@ if __name__ == "__main__":
 
             del model 
             gc.collect()
-        
+        '''
         # stop tracking epoch ###########################################
         tracker.epoch_end()
 
