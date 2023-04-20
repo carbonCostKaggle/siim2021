@@ -660,9 +660,9 @@ if __name__ == "__main__":
 
         oofs = []
         for cc, fold_id in enumerate(cfg.folds): # cfg.folds == 5
-            '''log_path = f'{cfg.out_dir}/log_f{fold_id}_st{cfg.stage}.txt'
+            log_path = f'{cfg.out_dir}/log_f{fold_id}_st{cfg.stage}.txt'
             train_loader, valid_loader, total_steps, val_df, e_loader = get_dataloader(cfg, fold_id)
-            total_steps = total_steps*cfg.epochs'''
+            '''total_steps = total_steps*cfg.epochs'''
             print(f'======== FOLD {fold_id} ========')
             if cfg.dp:
                 model = torch.nn.DataParallel(model)
