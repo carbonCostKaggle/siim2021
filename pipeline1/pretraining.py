@@ -424,12 +424,12 @@ if __name__ == "__main__":
         train_loader, valid_loader, total_steps, val_df = get_dataloader(cfg, fold_id)
         total_steps = total_steps*cfg.epochs
         print(f'======== FOLD {fold_id} ========')
-        '''if cfg.dp:
-            model = torch.nn.DataParallel(model)'''
+        if cfg.dp:
+            model = torch.nn.DataParallel(model)
 
         if cfg.mode == 'train':
             logfile(f'======= STAGE {cfg.stage} =========')
-            '''model = get_model(cfg).to(device)
+            model = get_model(cfg).to(device)
             optimizer = get_optimizer(cfg, model)
             scheduler = get_scheduler(cfg, optimizer, total_steps)
 
@@ -471,10 +471,10 @@ if __name__ == "__main__":
 
         
             loss_min = 1e6
-            map_score_max = 0'''
+            map_score_max = 0
             for epoch in range(1, cfg.epochs+1):
                 logfile(f'====epoch {epoch} ====')
-                '''loss_train = train_func(model, train_loader, scheduler, device, epoch)
+                loss_train = train_func(model, train_loader, scheduler, device, epoch)
                 loss_valid, micro_score, macro_score, auc, map, pred_probs = valid_func(model, valid_loader)
 
                 if map > map_score_max:
@@ -511,15 +511,15 @@ if __name__ == "__main__":
 
                     torch.save(checkpoint, f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth')
 
-                logfile(f'[EPOCH {epoch}] micro f1 score: {micro_score}, macro_score f1 score: {macro_score}, val loss: {loss_valid}, AUC: {auc}, MAP: {map}')'''
+                logfile(f'[EPOCH {epoch}] micro f1 score: {micro_score}, macro_score f1 score: {macro_score}, val loss: {loss_valid}, AUC: {auc}, MAP: {map}')
             
-            '''if cfg.neptune_project and cfg.mode == 'train':
+            if cfg.neptune_project and cfg.mode == 'train':
                 neptune.stop()
 
             del model, scheduler, optimizer
-            gc.collect()'''
+            gc.collect()
 
-        '''if cfg.mode == 'test':
+        if cfg.mode == 'test':
             transforms_valid = albumentations.Compose([
                 albumentations.Resize(cfg.input_size, cfg.input_size),
             ])
@@ -544,9 +544,10 @@ if __name__ == "__main__":
 
             del model 
             gc.collect()
-        '''
-        # stop tracking epoch ###########################################
+        #################################################################################
+        # stop tracking epoch ###########################################################
         tracker.epoch_end()
+        break
         # break so only 1 fold runs (still run through 15 epochs)
 
     # Optional: Add a stop in case of early termination before all monitor_epochs has
