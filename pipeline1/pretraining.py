@@ -409,7 +409,6 @@ if __name__ == "__main__":
     
     max_epochs = len(list(enumerate(cfg.folds))) # cfg.folds == 5
     #max_epochs = cfg.epochs # cfg.epochs == 15
-    
     # Add carbon tracker ##################################################################
     tracker = CarbonTracker(epochs=max_epochs)
     
@@ -528,8 +527,10 @@ if __name__ == "__main__":
             val_loader = DataLoader(val_dataset, batch_size=cfg.batch_size, shuffle=False,  num_workers=8, pin_memory=True)
 
             model = get_model(cfg).to(device)
-            # chpt_path = f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth'
-            # chpt_path = f'{cfg.out_dir}/best_map_fold{fold_id}_st{cfg.stage}.pth'
+            # THE TWO LINES BEFORE THIS WERE COMMENTED OUT BY THE DEVELOPERS
+            # WE UNCOMMENTED THEM OUT TO GET THE TRAINING SCRIPT TO RUN
+            chpt_path = f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth'
+            chpt_path = f'{cfg.out_dir}/best_map_fold{fold_id}_st{cfg.stage}.pth'
             chpt_path = f'{cfg.out_dir}/best_loss_fold{fold_id}_st{cfg.stage}.pth'
             checkpoint = torch.load(chpt_path, map_location="cpu")
             model.load_state_dict(checkpoint)

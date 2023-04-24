@@ -702,6 +702,9 @@ if __name__ == "__main__":
                     seg_criterion = torch.nn.BCEWithLogitsLoss()
 
                 if cfg.weight_file:
+                    print("================== THIS IS PRINTING cfg.weight_file ====================")
+                    print(cfg.weight_file)
+                    
                     exclude = []  # exclude keys
                     if '.pth' in cfg.weight_file:
                         weight_file = cfg.weight_file
