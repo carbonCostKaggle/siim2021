@@ -708,7 +708,7 @@ if __name__ == "__main__":
                     exclude = []  # exclude keys
                     if '.pth' in cfg.weight_file:
                         weight_file = cfg.weight_file
-                    else:
+                    else: # MAYBE HAVE TO CHANGE THE LINE BELOW ########################
                         weight_file = cfg.weight_file + f'best_map_fold{fold_id}_st0.pth'
                     state_dict = torch.load(weight_file, map_location=device)  # load checkpoint
                     if cfg.use_seg:

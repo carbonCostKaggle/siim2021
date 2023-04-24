@@ -529,8 +529,8 @@ if __name__ == "__main__":
             model = get_model(cfg).to(device)
             # THE TWO LINES BEFORE THIS WERE COMMENTED OUT BY THE DEVELOPERS
             # WE UNCOMMENTED THEM OUT TO GET THE TRAINING SCRIPT TO RUN
-            chpt_path = f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth'
-            chpt_path = f'{cfg.out_dir}/best_map_fold{fold_id}_st{cfg.stage}.pth'
+            #chpt_path = f'{cfg.out_dir}/last_checkpoint_fold{fold_id}_st{cfg.stage}.pth'
+            #chpt_path = f'{cfg.out_dir}/best_map_fold{fold_id}_st{cfg.stage}.pth'
             chpt_path = f'{cfg.out_dir}/best_loss_fold{fold_id}_st{cfg.stage}.pth'
             checkpoint = torch.load(chpt_path, map_location="cpu")
             model.load_state_dict(checkpoint)
