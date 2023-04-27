@@ -14,7 +14,7 @@ cfg = {
     "out_dir": f"{outputdir}",
     "folds": [0, 1, 2, 3, 4],
     "augmentation": "s_0220/0220_hf_cut_sm2_0.75_384_v1.yaml",
-    "weight_file": 'outputs/n_cf2_pretraining/dm_nfnet_f3//best_map_fold1_st0.pth',  # "/model_state_45000.pth",
+    "weight_file": 'outputs/n_cf2_pretraining/dm_nfnet_f3/best_map_fold0_st0.pth',  # "/model_state_45000.pth", # HAD TO MODIFY THIS
     # "weight_file":None,
     "resume_training": False,
     "dropout": 0.5,
