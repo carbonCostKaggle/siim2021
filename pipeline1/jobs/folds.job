@@ -6,6 +6,8 @@
 #SBATCH --time=2:00:00              # Run time (hh:mm:ss) - run for 2 hours max
 #SBATCH --partition=brown           # Run on either the Red or Brown queue
 #SBATCH --mail-type=BEGIN,FAIL,END
+#SBATCH --account=students
+hostname
 
 # make folds
 cd ..
