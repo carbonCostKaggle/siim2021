@@ -2,6 +2,9 @@ pretrained/
 outputs/
 logs/
 models/
+c14zip
 png512zip
 *.pyc
 *__pycache__/*
+pipeline1/data/c14/
+pipeline1/data/png512/
