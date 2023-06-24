@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --job-name=unzip         # Job name
+#SBATCH --output=job.%j.out      # Name of output file (%j expands to jobId)
+#SBATCH --cpus-per-task=4        # Schedule one core
+#SBATCH --time=06:00:00          # Run for 6 hours max
+#SBATCH --partition=brown,red    # Run on either the Red or Brown queue
+#SBATCH --account=students
+#SBATCH --mail-type=BEGIN,FAIL,END
+
+# Print out the hostname of the node the job is running on
+hostname
+
+unzip c14zip -d c14
